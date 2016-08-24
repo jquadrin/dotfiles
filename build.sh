@@ -9,8 +9,10 @@ ln -sf `pwd`/bash_profile ~/.bash_profile
 # vim 
 mkdir -p ~/.vim/autoload ~/.vim/bundle 
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-
 ln -sf `pwd`/vimrc ~/.vimrc
+
+# tmux
+ln -sf `pwd`/tmuxconf ~/.tmux.conf
 
 # vim plugins
 git clone https://github.com/scrooloose/nerdtree              ~/.vim/bundle/nerdtree

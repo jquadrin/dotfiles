@@ -13,7 +13,6 @@ let g:airline_theme='molokai'
 let g:pymode_rope = 0
 let g:pymode_folding = 0
 
-
 set number
 set background=dark
 set cul
